@@ -1,0 +1,22 @@
+{
+  "name": "socialconnect",
+  "version": "1.0.0",
+  "description": "SocialConnect social media app built with Express, SQLite and vanilla JavaScript",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "better-sqlite3": "^12.11.1",
+    "express": "^5.1.0",
+    "express-session": "^1.18.2"
+  },
+  "allowScripts": {
+    "better-sqlite3@12.11.1": true
+  }
+}

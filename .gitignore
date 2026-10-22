@@ -1,0 +1,5 @@
+node_modules/
+.env
+socialconnect.db
+socialconnect.db-shm
+socialconnect.db-wal
